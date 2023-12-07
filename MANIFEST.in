@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include basecamp *.css
+recursive-include basecamp *.csv
+recursive-include basecamp *.html
+recursive-include basecamp *.ico
+recursive-include basecamp *.js
+recursive-include basecamp *.json
+recursive-include basecamp *.md
+recursive-include basecamp *.png
+recursive-include basecamp *.py
+recursive-include basecamp *.svg
+recursive-include basecamp *.txt
+recursive-exclude basecamp *.pyc
