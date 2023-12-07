@@ -19,7 +19,14 @@
   "description",
   "tab_break_tab",
   "qualification",
-  "custom_form_table"
+  "custom_form_table",
+  "other_fields_tab",
+  "language",
+  "skills",
+  "technical_knowledge",
+  "common_tab",
+  "activity",
+  "disclaimer"
  ],
  "fields": [
   {
@@ -81,11 +88,46 @@
    "fieldtype": "Table",
    "label": "Custom Form Table",
    "options": "Form Table"
+  },
+  {
+   "fieldname": "other_fields_tab",
+   "fieldtype": "Tab Break",
+   "label": "Other Fields"
+  },
+  {
+   "fieldname": "language",
+   "fieldtype": "Data",
+   "label": "Language"
+  },
+  {
+   "fieldname": "skills",
+   "fieldtype": "Data",
+   "label": "Skills"
+  },
+  {
+   "fieldname": "technical_knowledge",
+   "fieldtype": "Data",
+   "label": "Technical Knowledge"
+  },
+  {
+   "fieldname": "common_tab",
+   "fieldtype": "Tab Break",
+   "label": "Common"
+  },
+  {
+   "fieldname": "activity",
+   "fieldtype": "Data",
+   "label": "Activity"
+  },
+  {
+   "fieldname": "disclaimer",
+   "fieldtype": "Data",
+   "label": "Disclaimer"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-12-07 12:15:36.428406",
+ "modified": "2023-12-07 17:20:28.306384",
  "modified_by": "Administrator",
  "module": "Basecamp",
  "name": "Custom Form",
