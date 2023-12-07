@@ -2,7 +2,7 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "Form-.##",
- "creation": "2023-12-07 10:57:24.389609",
+ "creation": "2023-12-07 12:13:10.535643",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -11,14 +11,22 @@
   "employee_id",
   "first_name",
   "last_name",
-  "contact_no",
-  "email_id",
+  "column_break_ydn02",
+  "age",
   "gender",
   "location",
+  "section_break_l6jxs",
   "description",
-  "form_table"
+  "tab_break_tab",
+  "qualification",
+  "custom_form_table"
  ],
  "fields": [
+  {
+   "fieldname": "employee_id",
+   "fieldtype": "Data",
+   "label": "Employee ID"
+  },
   {
    "fieldname": "first_name",
    "fieldtype": "Data",
@@ -30,14 +38,13 @@
    "label": "Last Name"
   },
   {
-   "fieldname": "contact_no",
-   "fieldtype": "Phone",
-   "label": "Contact NO"
+   "fieldname": "column_break_ydn02",
+   "fieldtype": "Column Break"
   },
   {
-   "fieldname": "email_id",
-   "fieldtype": "Data",
-   "label": "Email ID"
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age"
   },
   {
    "fieldname": "gender",
@@ -51,28 +58,37 @@
    "label": "Location"
   },
   {
+   "fieldname": "section_break_l6jxs",
+   "fieldtype": "Section Break"
+  },
+  {
    "fieldname": "description",
    "fieldtype": "Text",
    "label": "Description"
   },
   {
-   "fieldname": "employee_id",
-   "fieldtype": "Data",
-   "label": "Employee ID"
+   "fieldname": "tab_break_tab",
+   "fieldtype": "Tab Break",
+   "label": "Tab Break"
   },
   {
-   "fieldname": "form_table",
+   "fieldname": "qualification",
+   "fieldtype": "Data",
+   "label": "Qualification"
+  },
+  {
+   "fieldname": "custom_form_table",
    "fieldtype": "Table",
-   "label": "Form Table",
+   "label": "Custom Form Table",
    "options": "Form Table"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-12-07 11:06:33.248292",
+ "modified": "2023-12-07 12:15:36.428406",
  "modified_by": "Administrator",
  "module": "Basecamp",
- "name": "Form",
+ "name": "Custom Form",
  "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [

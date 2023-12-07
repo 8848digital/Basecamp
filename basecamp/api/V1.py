@@ -5,6 +5,8 @@ import basecamp.api.v1.create_doc as create_doc
 import basecamp.api.v1.get_doc as get_doc
 import basecamp.api.v1.form_api as form_api
 import basecamp.api.v1.get_field_doctype as get_field_doctype
+import basecamp.api.v1.get_doc_child_table as get_doc_child_table
+
 
 
 
@@ -18,7 +20,8 @@ class V1():
             'create_doc':['create_doctype'],
             'get_doc':['get_doctype'],
             'form_api':['get_form'],
-            'get_field_doctype':['get_field_api_doctype']
+            'get_field_doctype':['get_field_api_doctype'],
+            'get_doc_child_table':['get_doctype_child_table']
 
             
             
