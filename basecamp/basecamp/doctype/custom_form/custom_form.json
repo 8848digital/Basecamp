@@ -8,13 +8,16 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "is_submit",
+  "submit",
+  "attach_image",
   "employee_id",
+  "location",
+  "column_break_ydn02",
   "first_name",
   "last_name",
-  "column_break_ydn02",
   "age",
   "gender",
-  "location",
   "section_break_l6jxs",
   "description",
   "tab_break_tab",
@@ -123,11 +126,28 @@
    "fieldname": "disclaimer",
    "fieldtype": "Data",
    "label": "Disclaimer"
+  },
+  {
+   "fieldname": "submit",
+   "fieldtype": "Button",
+   "label": "Submit"
+  },
+  {
+   "default": "0",
+   "fieldname": "attach_image",
+   "fieldtype": "Attach",
+   "label": "Attach Image"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_submit",
+   "fieldtype": "Check",
+   "label": "Is Submit"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-12-07 17:20:28.306384",
+ "modified": "2023-12-08 14:55:23.214321",
  "modified_by": "Administrator",
  "module": "Basecamp",
  "name": "Custom Form",
