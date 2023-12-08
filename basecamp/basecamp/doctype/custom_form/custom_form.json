@@ -134,20 +134,19 @@
   },
   {
    "default": "0",
-   "fieldname": "attach_image",
-   "fieldtype": "Attach",
-   "label": "Attach Image"
-  },
-  {
-   "default": "0",
    "fieldname": "is_submit",
    "fieldtype": "Check",
    "label": "Is Submit"
+  },
+  {
+   "fieldname": "attach_image",
+   "fieldtype": "Attach Image",
+   "label": "Attach Image"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-12-08 14:55:23.214321",
+ "modified": "2023-12-08 15:37:33.072862",
  "modified_by": "Administrator",
  "module": "Basecamp",
  "name": "Custom Form",
