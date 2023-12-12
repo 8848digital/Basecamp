@@ -9,6 +9,7 @@
  "engine": "InnoDB",
  "field_order": [
   "employee_id",
+  "employee_id_2",
   "location",
   "first_name",
   "attach_image",
@@ -145,12 +146,17 @@
    "fieldname": "attach_image",
    "fieldtype": "Attach Image",
    "label": "Attach Image"
+  },
+  {
+   "fieldname": "employee_id_2",
+   "fieldtype": "Data",
+   "label": "Employee ID 2"
   }
  ],
  "idx": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-12-12 15:15:25.551871",
+ "modified": "2023-12-12 17:34:27.887183",
  "modified_by": "Administrator",
  "module": "Basecamp",
  "name": "Custom Form",
