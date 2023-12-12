@@ -6,6 +6,8 @@ import basecamp.api.v1.get_doc as get_doc
 import basecamp.api.v1.form_api as form_api
 import basecamp.api.v1.get_field_doctype as get_field_doctype
 import basecamp.api.v1.get_doc_child_table as get_doc_child_table
+import basecamp.api.v1.list_view as list_view
+
 
 
 
@@ -21,7 +23,8 @@ class V1():
             'get_doc':['get_doctype'],
             'form_api':['get_form'],
             'get_field_doctype':['get_field_api_doctype'],
-            'get_doc_child_table':['get_doctype_child_table']
+            'get_doc_child_table':['get_doctype_child_table'],
+            'list_view':['get_list_view','get_list_view_data']
 
             
             
