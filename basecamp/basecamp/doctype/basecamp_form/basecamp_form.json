@@ -15,7 +15,8 @@
   "address",
   "attach_image",
   "is_submit",
-  "submit"
+  "submit",
+  "custom_form"
  ],
  "fields": [
   {
@@ -62,11 +63,17 @@
   {
    "fieldname": "column_break_i0vya",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "custom_form",
+   "fieldtype": "Link",
+   "label": "Custom Form",
+   "options": "Custom Form"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-12-08 18:31:38.740443",
+ "modified": "2023-12-14 12:36:19.830930",
  "modified_by": "Administrator",
  "module": "Basecamp",
  "name": "Basecamp Form",
